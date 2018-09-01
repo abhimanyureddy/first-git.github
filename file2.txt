@@ -1,1 +1,2 @@
-second file using git
+second file using gitthird 
+wq!
