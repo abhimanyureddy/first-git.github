@@ -1,0 +1,102 @@
+USER
+==========================================
+#/usr/sbin/useradd -m ===		
+---to create user
+
+#passwd ===
+---to give password to user
+
+#userdel ===
+---delete user
+
+#groupadd ===
+---to creat users group
+
+#usermod -a -G =grpname= =username=
+---to add user to a group
+
+#ls -l/home
+---to see all users
+
+#sudo -i or su
+---to change to root user
+
+#su 'username'
+---to switch user
+
+#who (or) w (or) id
+---to see logged in users and details
+
+#awk -F':' '{ print $1}' /etc/passwd
+---to see users
+
+
+==========================================
+SYSTEM and NETWORK
+
+#ip addr
+---to know ip address
+
+#ifup enp0s3 then enp0s8
+---to connect to network in vertualbox
+
+#df -h
+---to get disc usage info
+
+#free
+---RAM usage
+
+#top 
+--- to know CPU usage
+
+#grep 
+---to get specific output
+
+#ps -e,r,etc
+---to know process status
+
+#-kill-9 PID and -15 PID
+---to kill process forcefully and safely
+
+#hostnamectl status
+---to know your machine name,os and kernel
+
+#nslookup URL
+---to check IP of perticularURL
+
+==========================================
+#sudo ssh -i "awskeyuswest.pem" ubuntu@ec2-54-212-94-245.us-west-2.compute.amazonaws.com
+---to connect AWS server from host machine
+
+==========================================
+FILES and DIR
+
+#rm -rf =dir name=
+---to remove non empty dir
+
+#tar -xvf file.tar,gz
+---to unzip file
+
+
+#diff file1 file2
+---compare two files
+
+
+
+
+
+
+
+
+
+
+(NOTE)
+-h =human readable format
+-s =total size
+-n =number
+-f =follow
+-l =list
+-a =all 
+a* =begin with 'a'
+*a*=contains 'a'
+
