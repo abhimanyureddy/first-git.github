@@ -64,6 +64,11 @@ SYSTEM and NETWORK
 #nslookup URL
 ---to check IP of perticularURL
 
+#shutdown -h now or shutdown -h +10
+---shutdown immediately or after 10 mins
+
+#shutdown -r now
+---reboot
 ==========================================
 #sudo ssh -i "awskeyuswest.pem" ubuntu@ec2-54-212-94-245.us-west-2.compute.amazonaws.com
 ---to connect AWS server from host machine
@@ -71,12 +76,20 @@ SYSTEM and NETWORK
 ==========================================
 FILES and DIR
 
+#locate filename
+---search perticular file
+
+#mv filename newname
+---to rename
+
 #rm -rf =dir name=
 ---to remove non empty dir
 
 #tar -xvf file.tar,gz
 ---to unzip file
 
+#tar cvf filename.tar path/
+---to create zip file
 
 #diff file1 file2
 ---compare two files
