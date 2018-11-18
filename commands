@@ -94,7 +94,17 @@ FILES and DIR
 #diff file1 file2
 ---compare two files
 
+===========================================
+connections
 
+#ssh-keygen
+---to create ssh key
+
+#ssh -T git@github.com
+---to connect to github
+
+#cat /.ssh/id_rsa.pub
+---to see existing ssh key
 
 
 
