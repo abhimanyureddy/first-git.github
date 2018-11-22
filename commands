@@ -24,6 +24,12 @@ USER
 #su 'username'
 ---to switch user
 
+#sudo EDITOR=gedit visudo
+Change this line:%admin ALL=(ALL) ALL
+to:%admin ALL=(ALL) NOPASSWD: ALL
+---to give a user full sudo permissions as root
+
+
 #who (or) w (or) id
 ---to see logged in users and details
 
