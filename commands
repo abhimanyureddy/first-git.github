@@ -15,6 +15,9 @@ USER
 #usermod -a -G =grpname= =username=
 ---to add user to a group
 
+#nano or 	
+---to change hostname
+
 #ls -l/home
 ---to see all users
 
@@ -29,6 +32,8 @@ Change this line:%admin ALL=(ALL) ALL
 to:%admin ALL=(ALL) NOPASSWD: ALL
 ---to give a user full sudo permissions as root
 
+#sudo -s "command"
+---not to ask sudo from next commands
 
 #who (or) w (or) id
 ---to see logged in users and details
@@ -39,6 +44,9 @@ to:%admin ALL=(ALL) NOPASSWD: ALL
 
 ==========================================
 SYSTEM and NETWORK
+
+#cat /etc/os-release
+---os details
 
 #ip addr
 ---to know ip address
